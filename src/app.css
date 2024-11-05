@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: '20px';
+}
+
+.nameInput {
+  border-radius: 8px;
+  padding: 4px 8px;
+  border: 1px solid black;
+  color: #4169e1;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nameInput:focus {
+  border: 1px solid #4169e1;
+  outline: none;
+}
